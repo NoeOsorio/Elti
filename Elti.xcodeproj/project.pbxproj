@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC214D83226266E500DE8E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC214D82226266E500DE8E6C /* AppDelegate.swift */; };
+		DC214D85226266E500DE8E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC214D84226266E500DE8E6C /* ViewController.swift */; };
+		DC214D88226266E500DE8E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC214D86226266E500DE8E6C /* Main.storyboard */; };
+		DC214D8A226266EE00DE8E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC214D89226266EE00DE8E6C /* Assets.xcassets */; };
+		DC214D8D226266EE00DE8E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC214D8B226266EE00DE8E6C /* LaunchScreen.storyboard */; };
+		DC214D98226266EE00DE8E6C /* EltiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC214D97226266EE00DE8E6C /* EltiTests.swift */; };
+		DC214DA3226266EE00DE8E6C /* EltiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC214DA2226266EE00DE8E6C /* EltiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC214D94226266EE00DE8E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC214D77226266E500DE8E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC214D7E226266E500DE8E6C;
+			remoteInfo = Elti;
+		};
+		DC214D9F226266EE00DE8E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC214D77226266E500DE8E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC214D7E226266E500DE8E6C;
+			remoteInfo = Elti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC214D7F226266E500DE8E6C /* Elti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC214D82226266E500DE8E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC214D84226266E500DE8E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC214D87226266E500DE8E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC214D89226266EE00DE8E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC214D8C226266EE00DE8E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC214D8E226266EE00DE8E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC214D93226266EE00DE8E6C /* EltiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EltiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC214D97226266EE00DE8E6C /* EltiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EltiTests.swift; sourceTree = "<group>"; };
+		DC214D99226266EE00DE8E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC214D9E226266EE00DE8E6C /* EltiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EltiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC214DA2226266EE00DE8E6C /* EltiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EltiUITests.swift; sourceTree = "<group>"; };
+		DC214DA4226266EE00DE8E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC214D7C226266E500DE8E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC214D90226266EE00DE8E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC214D9B226266EE00DE8E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC214D76226266E500DE8E6C = {
+			isa = PBXGroup;
+			children = (
+				DC214D81226266E500DE8E6C /* Elti */,
+				DC214D96226266EE00DE8E6C /* EltiTests */,
+				DC214DA1226266EE00DE8E6C /* EltiUITests */,
+				DC214D80226266E500DE8E6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC214D80226266E500DE8E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC214D7F226266E500DE8E6C /* Elti.app */,
+				DC214D93226266EE00DE8E6C /* EltiTests.xctest */,
+				DC214D9E226266EE00DE8E6C /* EltiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC214D81226266E500DE8E6C /* Elti */ = {
+			isa = PBXGroup;
+			children = (
+				DC214D82226266E500DE8E6C /* AppDelegate.swift */,
+				DC214D84226266E500DE8E6C /* ViewController.swift */,
+				DC214D86226266E500DE8E6C /* Main.storyboard */,
+				DC214D89226266EE00DE8E6C /* Assets.xcassets */,
+				DC214D8B226266EE00DE8E6C /* LaunchScreen.storyboard */,
+				DC214D8E226266EE00DE8E6C /* Info.plist */,
+			);
+			path = Elti;
+			sourceTree = "<group>";
+		};
+		DC214D96226266EE00DE8E6C /* EltiTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC214D97226266EE00DE8E6C /* EltiTests.swift */,
+				DC214D99226266EE00DE8E6C /* Info.plist */,
+			);
+			path = EltiTests;
+			sourceTree = "<group>";
+		};
+		DC214DA1226266EE00DE8E6C /* EltiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC214DA2226266EE00DE8E6C /* EltiUITests.swift */,
+				DC214DA4226266EE00DE8E6C /* Info.plist */,
+			);
+			path = EltiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC214D7E226266E500DE8E6C /* Elti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC214DA7226266EE00DE8E6C /* Build configuration list for PBXNativeTarget "Elti" */;
+			buildPhases = (
+				DC214D7B226266E500DE8E6C /* Sources */,
+				DC214D7C226266E500DE8E6C /* Frameworks */,
+				DC214D7D226266E500DE8E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elti;
+			productName = Elti;
+			productReference = DC214D7F226266E500DE8E6C /* Elti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC214D92226266EE00DE8E6C /* EltiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC214DAA226266EE00DE8E6C /* Build configuration list for PBXNativeTarget "EltiTests" */;
+			buildPhases = (
+				DC214D8F226266EE00DE8E6C /* Sources */,
+				DC214D90226266EE00DE8E6C /* Frameworks */,
+				DC214D91226266EE00DE8E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC214D95226266EE00DE8E6C /* PBXTargetDependency */,
+			);
+			name = EltiTests;
+			productName = EltiTests;
+			productReference = DC214D93226266EE00DE8E6C /* EltiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC214D9D226266EE00DE8E6C /* EltiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC214DAD226266EE00DE8E6C /* Build configuration list for PBXNativeTarget "EltiUITests" */;
+			buildPhases = (
+				DC214D9A226266EE00DE8E6C /* Sources */,
+				DC214D9B226266EE00DE8E6C /* Frameworks */,
+				DC214D9C226266EE00DE8E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC214DA0226266EE00DE8E6C /* PBXTargetDependency */,
+			);
+			name = EltiUITests;
+			productName = EltiUITests;
+			productReference = DC214D9E226266EE00DE8E6C /* EltiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC214D77226266E500DE8E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Noe Osorio";
+				TargetAttributes = {
+					DC214D7E226266E500DE8E6C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DC214D92226266EE00DE8E6C = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DC214D7E226266E500DE8E6C;
+					};
+					DC214D9D226266EE00DE8E6C = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DC214D7E226266E500DE8E6C;
+					};
+				};
+			};
+			buildConfigurationList = DC214D7A226266E500DE8E6C /* Build configuration list for PBXProject "Elti" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC214D76226266E500DE8E6C;
+			productRefGroup = DC214D80226266E500DE8E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC214D7E226266E500DE8E6C /* Elti */,
+				DC214D92226266EE00DE8E6C /* EltiTests */,
+				DC214D9D226266EE00DE8E6C /* EltiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC214D7D226266E500DE8E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC214D8D226266EE00DE8E6C /* LaunchScreen.storyboard in Resources */,
+				DC214D8A226266EE00DE8E6C /* Assets.xcassets in Resources */,
+				DC214D88226266E500DE8E6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC214D91226266EE00DE8E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC214D9C226266EE00DE8E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC214D7B226266E500DE8E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC214D85226266E500DE8E6C /* ViewController.swift in Sources */,
+				DC214D83226266E500DE8E6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC214D8F226266EE00DE8E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC214D98226266EE00DE8E6C /* EltiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC214D9A226266EE00DE8E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC214DA3226266EE00DE8E6C /* EltiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC214D95226266EE00DE8E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC214D7E226266E500DE8E6C /* Elti */;
+			targetProxy = DC214D94226266EE00DE8E6C /* PBXContainerItemProxy */;
+		};
+		DC214DA0226266EE00DE8E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC214D7E226266E500DE8E6C /* Elti */;
+			targetProxy = DC214D9F226266EE00DE8E6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC214D86226266E500DE8E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC214D87226266E500DE8E6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC214D8B226266EE00DE8E6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC214D8C226266EE00DE8E6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC214DA5226266EE00DE8E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC214DA6226266EE00DE8E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC214DA8226266EE00DE8E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Elti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demow.Elti.Elti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC214DA9226266EE00DE8E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Elti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demow.Elti.Elti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC214DAB226266EE00DE8E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EltiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demow.Elti.EltiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elti.app/Elti";
+			};
+			name = Debug;
+		};
+		DC214DAC226266EE00DE8E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EltiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demow.Elti.EltiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elti.app/Elti";
+			};
+			name = Release;
+		};
+		DC214DAE226266EE00DE8E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EltiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demow.Elti.EltiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elti;
+			};
+			name = Debug;
+		};
+		DC214DAF226266EE00DE8E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EltiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.demow.Elti.EltiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Elti;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC214D7A226266E500DE8E6C /* Build configuration list for PBXProject "Elti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC214DA5226266EE00DE8E6C /* Debug */,
+				DC214DA6226266EE00DE8E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC214DA7226266EE00DE8E6C /* Build configuration list for PBXNativeTarget "Elti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC214DA8226266EE00DE8E6C /* Debug */,
+				DC214DA9226266EE00DE8E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC214DAA226266EE00DE8E6C /* Build configuration list for PBXNativeTarget "EltiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC214DAB226266EE00DE8E6C /* Debug */,
+				DC214DAC226266EE00DE8E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC214DAD226266EE00DE8E6C /* Build configuration list for PBXNativeTarget "EltiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC214DAE226266EE00DE8E6C /* Debug */,
+				DC214DAF226266EE00DE8E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC214D77226266E500DE8E6C /* Project object */;
+}
