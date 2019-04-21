@@ -14,6 +14,8 @@
 		DC214D8D226266EE00DE8E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC214D8B226266EE00DE8E6C /* LaunchScreen.storyboard */; };
 		DC214D98226266EE00DE8E6C /* EltiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC214D97226266EE00DE8E6C /* EltiTests.swift */; };
 		DC214DA3226266EE00DE8E6C /* EltiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC214DA2226266EE00DE8E6C /* EltiUITests.swift */; };
+		DCEA1090226B82800024EA73 /* InventarioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA108F226B827F0024EA73 /* InventarioTableViewCell.swift */; };
+		DCEA1092226B83FF0024EA73 /* InventarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEA1091226B83FF0024EA73 /* InventarioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DC214D9E226266EE00DE8E6C /* EltiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EltiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC214DA2226266EE00DE8E6C /* EltiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EltiUITests.swift; sourceTree = "<group>"; };
 		DC214DA4226266EE00DE8E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEA108F226B827F0024EA73 /* InventarioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioTableViewCell.swift; sourceTree = "<group>"; };
+		DCEA1091226B83FF0024EA73 /* InventarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventarioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				DC214D89226266EE00DE8E6C /* Assets.xcassets */,
 				DC214D8B226266EE00DE8E6C /* LaunchScreen.storyboard */,
 				DC214D8E226266EE00DE8E6C /* Info.plist */,
+				DCEA108F226B827F0024EA73 /* InventarioTableViewCell.swift */,
+				DCEA1091226B83FF0024EA73 /* InventarioViewController.swift */,
 			);
 			path = Elti;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEA1092226B83FF0024EA73 /* InventarioViewController.swift in Sources */,
 				DC214D85226266E500DE8E6C /* ViewController.swift in Sources */,
 				DC214D83226266E500DE8E6C /* AppDelegate.swift in Sources */,
+				DCEA1090226B82800024EA73 /* InventarioTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
